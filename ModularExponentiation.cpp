@@ -89,5 +89,5 @@ int main() {
 // fastest method but my own code implementation of fast modular exponentiation. It involves splitting the exponents into multiples powers of 2, 
 // which is done by converting it to a base 2 format, and then using the modular multiplication properties to get the final value. I struggled a 
 // little while writing this due to unfamiliarity with C++ and its integer limitations. I kept getting invalid values that were clearly overflow, 
-// and had to manually work the numbers out in order to find a fitting integer type, and settled on a 128-bit integer. I feel this is a problem any 
-// programmer pampered by dynamic typing would face.
+// and had to manually work the numbers out in order to find a fitting integer type, and settled on a 128-bit integer. I feel this is a problem that 
+// any programmer pampered by dynamic typing would face.
